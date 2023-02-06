@@ -1,0 +1,90 @@
+# 자료형
+# 자료형을 알려주는 함수 type()
+
+
+# 정수형 : int
+# 실수형 : float
+# 문자열 : str
+# bool : bool (참 또는 거짓)
+
+# print(type(13))
+# print(type(1.2))
+# print(type("hi"))
+# print(type(True))
+
+
+#문자열 : 따옴표로 표시
+# test_str = "hello python!"
+# print(test_str)
+# #문자열의 연산
+# print(test_str + "welcome") # 문자열간의 연산 -> 두 문자열이 서로 합쳐진다.
+# print(test_str *  5) # 정수형 값과의 연산 -> 정수값만큼 한줄로 복제되어 합쳐진다.
+#
+
+#자료형을 이용한 형변환
+# a = "103"
+# a = int(a) # 문자열 -> 정수형
+# print(a, type(a))
+# a = str(a)
+# print(a, type(a)) # 정수형 -> 문자열
+
+
+#주의
+#a = "python3" # 문자가 있을 경우 대응되는 수가 없기 때문에 에러
+#a = int(a)
+
+#인덱싱, 슬라이싱 -> 문자열 자르기
+
+a = "hello python and welcome!"
+#(h가 0번쨰부터 시작)
+
+
+# 인덱싱 : 값 하나를 대상으로
+print(a[4])
+
+#음수 좌표
+print(a[-1])   #문자열의 맨 마지막 값
+
+
+#슬라이싱 : 범위 대상으로
+
+# print(a[3:7]) # 3이상 7미만
+# print(a[10:]) # "맨 마지막 값까지" 는 생략 가능하다
+# print(a[:9]) # "처음부터"는 생략 가능하다
+# print(a[5:12:3]) # 5부터 3칸씩 12미만까지 , #세번쨰 숫자를 명시하여 건너뛰는 정도를 정할 수 있다.
+# print(a[10::2]) # 마찬가지로 생략가능
+# print(a[:15:4]) # 마찬가지로 생략가능
+# print(a[::-1]) # 문자열 뒤집어짐
+
+
+# 문자열 변수 하나를 선언한다
+# hello mython for me? 문자열을 저장한다.
+# hello python to us? 문자열로 바꾸어 출력하는 문제
+
+a = "hello mython for me?"
+print(a[0:6]+"p"+a[7:13]+"t"+a[14]+" us")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
